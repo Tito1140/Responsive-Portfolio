@@ -215,3 +215,64 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+    width: 100%;
+    border: 5px;
+    padding-bottom: 20px;
+  }
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  #logo {
+    width: inherit
+  }
+  nav {
+    width: 75%
+  }
+  #main-container {
+    position: static;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-section {
+    margin-bottom: 200px;
+    padding-top: 10px;
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  body {
+    background-color: aqua
+  }
+  .work {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+  nav {
+    width: 45%;
+  }
+  .container {
+    padding-left: 30px;
+  }
+  .main-section {
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+
